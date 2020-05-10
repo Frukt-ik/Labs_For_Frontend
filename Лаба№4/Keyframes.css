@@ -1,0 +1,16 @@
+
+#animated_square .square {
+	 height: 100px;
+	 width: 100px;
+    animation-name: kf_square;
+    animation-iteration-count: infinite;
+    animation-duration: 21.5s;
+}
+
+@keyframes kf_square {
+    0%   {background-color: gainsboro;}
+    15%  {background-color: darkorchid;}
+    50%  {background-color: hotpink;}
+    85%  {background-color: darkkhaki;}
+    100% {background-color: darkolivegreen;}
+}
