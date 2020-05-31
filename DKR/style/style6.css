@@ -1,0 +1,123 @@
+#body6
+{
+	display: grid;
+	grid-template-rows: 60px 500px 150px;
+	text-align: center;
+	grid-row-gap: 100px;
+	margin: 0 auto;
+
+}
+
+#vibor
+{
+	display: grid;
+	grid-template-columns: 360px 360px 360px;
+	grid-template-rows: 480px;
+	grid-column-gap: 140px;
+
+
+}
+
+.viborq
+{
+
+	margin-top: 30px;
+	display: grid;
+	grid-template-rows: 30px 72px 300px;
+	grid-row-gap: 30px;
+}
+
+.dlaotstupa
+{
+	background-image: url(Prostokt7.png);
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	margin-top: 50px;
+	display: grid;
+	//grid-template-columns: 360px 360px 360px;
+	
+}
+
+
+.zagCheck
+{
+	color: #3a445a;
+	font-weight: 100;
+	font-size:60px;
+}
+
+.tarif span
+{
+
+	text-transform: uppercase;
+	color: #3a445a;
+	font-size: 24px;
+}
+
+.zena 
+{
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+
+.first
+{
+	color: #3a445a;
+	font-weight:600;
+	font-size:44px;
+}
+
+.second
+{
+	color: #3a445a;
+	font-weight:600;
+	font-size:72px;
+}
+
+.third
+{
+	color: #8492af;
+	font-weight:100;
+	font-size:24px;
+	margin-top: 30px;
+}
+
+.poslugi
+{
+	margin: 0 auto;
+	display: grid;
+	grid-template-rows: repeat(4, 50px);
+
+}
+.rows
+{
+	display: flex;
+	align-items: center;
+}
+
+.rows span
+{
+	margin-left: 10px;
+	color: #8492af;
+	font-size: 18px;
+}
+
+.textiknopka
+{
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-row-gap: 40px;
+}
+.texteee
+{
+	color: #8492af;
+	font-size: 18px;
+}
+.knopkaaa button
+{
+	width: 150px;
+	height: 35px;
+	border-radius: 50px;
+	background-color: #5584ff;
+}
+

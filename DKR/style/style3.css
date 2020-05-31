@@ -1,0 +1,74 @@
+
+#body3
+{
+	background: linear-gradient(to top, #f6f7fa, #ffffff);
+}
+
+.osnbody2
+{
+	display: grid;
+	grid-template-columns: 770px 1fr;
+	margin-top: 200px;
+	
+}
+
+.imageblock img
+{
+	height: 500px;
+	width: 749px;
+}
+
+.textglav
+{
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr; 
+	margin-left: 130px;
+}
+
+.taxtZ2
+{
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+
+.taxtZ1
+{
+
+	display: flex;
+	align-items: center;
+}
+
+.tz1,.tz2
+{
+	display: flex;
+	align-items: center;
+}
+
+.tz2
+{
+	margin-top: 25px;
+}
+
+.tzz1,.tzz2
+{
+	padding-left: 12px;
+}
+
+.taxtZ1 span
+{
+	font-size: 60px;
+	font-weight: 100;
+	color: #3a445a;
+}
+
+.ll
+{
+	color: #5886ff;
+	font-size: 22px;
+}
+
+.t1 span
+{
+	font-size: 18px;
+	color: #a5aec3;
+}
