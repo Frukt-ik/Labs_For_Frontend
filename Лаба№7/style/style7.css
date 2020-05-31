@@ -1,0 +1,37 @@
+#footer
+{
+	background-color:#0e1a35;
+	display: grid;
+	grid-template-rows: 1fr;
+}
+
+.stringstroka
+{
+	display: grid;
+	grid-template-columns: 8fr 3fr 2fr;
+	align-items: center;
+}
+
+.bspan
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.blokas span
+{
+	color:#8492af;
+	font-size: 18px;
+}
+
+.cspan
+{
+	display: grid;
+	grid-template-columns: 1px 1px 1px;
+	grid-column-gap: 25px;
+}
+
+#fortochka
+{
+	margin-left: 70px;
+}

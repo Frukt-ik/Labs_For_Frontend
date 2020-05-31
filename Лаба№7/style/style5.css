@@ -1,0 +1,106 @@
+#body5
+{
+	background: linear-gradient(to bottom, #f6f7fa, #ffffff);
+	display: grid;
+	grid-template-rows: 1fr ;
+}
+.fonchik5
+{
+	display: block;
+	text-align: center;
+}
+
+.osnbody4 
+{
+	margin-top: 60px;
+	display: grid;
+	grid-template-rows: 300px 1fr;
+	grid-gap: 30px;
+}
+
+.mytext
+{
+	text-align: center;
+}
+
+#zag
+{
+	color: #3a445a;
+	font-size: 60px;
+	font-weight: 100;
+}
+
+#podzag
+{
+	text-indent: 1,3em;
+	font-size: 18px;
+	font-weight: 500;
+	color: #8492af;
+}
+
+.Obshak
+{
+	width: 450px;
+	height: 200px;
+	display: grid;
+	grid-template-rows: 24px 3px 1fr;
+	position: absolute;
+	grid-row-gap: 20px;
+}
+
+#blockClin
+{
+	margin-top: 450px;
+	margin-left: 100px;
+}
+
+.ALLzag span
+{
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.osnALLText
+{
+	font-size: 18px;
+	color: #a5aec3;
+}
+
+#blockEasy
+{
+	margin-top: 720px;
+	margin-left: 800px;
+	text-align: right;
+	margin-right:0;
+}
+
+.litlecnopka
+{
+	display: flex;
+	align-items: center;
+	position: absolute;
+	text-align: center;
+}
+.bigcnipka
+{
+	margin-left: 8px;
+	position: absolute;
+}
+.tochki
+{
+
+	text-align: center;
+	position: absolute;
+}
+
+#ft
+{
+	margin-top: 470px;
+	margin-left: 730px;
+}
+
+#st
+{
+	margin-top: 740px;
+	margin-left: 755px;
+}

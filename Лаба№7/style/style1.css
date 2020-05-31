@@ -1,0 +1,136 @@
+body{
+
+}
+.mysait{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 850px 600px 800px 600px 968px 965px 120px;
+//	grid-row-gap:20px;
+}
+
+#body1
+{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 850px;
+}
+
+.osnbody1
+{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 75px 775px;
+	background-color: #0e1a35;
+//	background: linear-gradient(to bottom, #0e1a35, #fefcea);
+	background-image: url(../img/Grid.png);
+	background-size: cover;
+}
+
+.header
+{
+	display: grid;
+	grid-template-columns: 8fr 3fr 2fr;
+	//background-color: #995;
+	margin-top: 25px;
+}
+
+.header .logo
+{
+	display: flex;
+	align-items:center;                      ////
+	padding-left: 100px;
+	//background-color: #448;
+	margin-left: 75px;
+}
+
+.header .logbutton
+{
+	//background-color: #886666;
+}
+
+.header .text
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	//background-color: #332235;
+}
+
+.textik 
+{
+	display: flex;
+	align-items: center;                   /////
+	//background-color: green;
+	
+}
+
+.textik a
+{
+	color: #eff0f2;
+}
+
+.logbutton
+{
+	display: flex;
+	align-items: center;                  /////
+	//padding-left: 40px;
+}
+
+.logbutton #buttonlog
+{
+	background-color: rgba(14,26,53,0);
+	border-radius: 30px;
+	border-color: #4c76e4;
+	color: #4c76e4;
+	width:90px;
+	height:50;
+}
+
+.underheadbody
+{
+	margin-top: 80px;
+	background-image: url(../img/Graph.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: grid;
+	grid-template-rows: 100px 60px ;
+}
+
+.tex h1,h3{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.t1 h1{
+	color:#ffffffff;
+}
+.t2 h3{
+	color:#8492af;
+}
+
+.getstrbutton
+{
+	margin-top: 100px;
+	text-align: center;
+}
+
+#startbutton
+{
+	height: 35px;
+	width: 170px;
+	border-radius: 70px;
+}
+
+
+.broshurka
+{
+	position: absolute;
+	margin-top: 460px;
+	margin-left: 400px;
+	z-index: 1;
+}
+
+#perehodik
+{
+	position: fixed;
+	margin-top: 500px;
+}
